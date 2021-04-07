@@ -1,0 +1,54 @@
+AllCops:
+  Includes:
+    - '/**/*.rb'
+  Excludes:
+
+Style:
+  Enabled: true
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/RedundantFetchBlock:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/ExpandPathArguments:
+  Enabled: false
+
+Style/MixinUsage:
+  Enabled: false
+
+Style/RedundantBegin:
+  Enabled: false
+
+Style/StderrPuts:
+  Enabled: false
+
+Style/GlobalStdStream:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Layout:
+  Enabled: true
+
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: false
+  EnforcedStyle: no_space
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: true
+
+Layout/EmptyLines:
+  Enabled: true
+       
